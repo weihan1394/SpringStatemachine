@@ -1,4 +1,4 @@
-# Getting Started
+# Spring Statemachine
 
 ### Reference Documentation
 For further reference, please consider the following sections:
