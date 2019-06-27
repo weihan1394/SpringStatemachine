@@ -1,12 +1,7 @@
 com/weihan1394/SpringStatemachine/Configuration/OrderEvents.class
-com/weihan1394/SpringStatemachine/Configuration/PurchaseOrderConfig$2.class
-com/weihan1394/SpringStatemachine/Configuration/PurchaseOrderConfig$1.class
-com/weihan1394/SpringStatemachine/Configuration/BeanConfig.class
-com/weihan1394/SpringStatemachine/Configuration/Manager/OrderManager.class
-com/weihan1394/SpringStatemachine/Configuration/PurchaseOrderConfig$5.class
-com/weihan1394/SpringStatemachine/Configuration/PurchaseOrderConfig$4.class
 com/weihan1394/SpringStatemachine/Entity/Order.class
 com/weihan1394/SpringStatemachine/Configuration/OrderStates.class
-com/weihan1394/SpringStatemachine/Configuration/PurchaseOrderConfig$3.class
+com/weihan1394/SpringStatemachine/Configuration/BeanConfig.class
 com/weihan1394/SpringStatemachine/Configuration/PurchaseOrderConfig.class
 com/weihan1394/SpringStatemachine/SpringStatemachineApplication.class
+com/weihan1394/SpringStatemachine/Configuration/Manager/OrderManager.class

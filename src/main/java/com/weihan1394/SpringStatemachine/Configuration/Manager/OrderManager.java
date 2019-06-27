@@ -13,7 +13,7 @@ import java.util.List;
 
 public class OrderManager {
   @Autowired
-  StateMachineFactory<OrderStates, OrderEvents> factory;
+  private StateMachineFactory<OrderStates, OrderEvents> factory;
 
   public StateMachine<OrderStates, OrderEvents> newOrder(Order order) {
     StateMachine<OrderStates, OrderEvents> stateMachine = factory.getStateMachine("PO-" + order.getId());

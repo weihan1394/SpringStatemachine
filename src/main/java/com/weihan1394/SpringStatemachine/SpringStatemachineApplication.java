@@ -40,6 +40,11 @@ public class SpringStatemachineApplication implements CommandLineRunner {
     orderManager.fire(laptopStateMachine, OrderEvents.APPROVE);
 
     System.out.println("Laptop: " + laptopStateMachine.getState().getId());
+    System.out.println("Laptop: " + laptopStateMachine.toString());
+    System.out.println(laptop.toString());
+
+
+
 
     // Mouse PO
     Order mouse = new Order(2L, "Mouse", BigDecimal.valueOf(50));
@@ -51,10 +56,10 @@ public class SpringStatemachineApplication implements CommandLineRunner {
     System.out.println("Mouse State: " + mouseStateMachine.getState().getId());
     System.out.println(mouseStateMachine.getExtendedState().getVariables().get("order"));
 
-
     System.out.println("Mouse Machine Completed:" + mouseStateMachine.isComplete());
     orderManager.fire(mouseStateMachine, OrderEvents.PROCESS);
     System.out.println("Mouse State: " + mouseStateMachine.getState().getId());
     System.out.println("Mouse Machine Completed:" + mouseStateMachine.isComplete());
+    System.out.println(mouse.toString());
   }
 }
